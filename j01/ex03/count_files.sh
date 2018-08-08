@@ -1,1 +1,1 @@
-find . -not -path '*/\.*' | wc -l | bc
+find . | wc -l | bc
