@@ -1,1 +1,1 @@
-ldapsearch -Q "cn=*bon*" cn | grep "^cn: " | sed 's/cn: // g' | wc -l
+ldapsearch -Q "sn=*bon*" sn | grep "^sn: " | sed 's/sn: // g' | wc -l
